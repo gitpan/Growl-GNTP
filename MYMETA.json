@@ -1,0 +1,52 @@
+{
+   "abstract" : "Perl implementation of GNTP Protocol (Client Part)",
+   "author" : [
+      "Yasuhiro Matsumoto <mattn.jp@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Growl-GNTP",
+   "no_index" : {
+      "directory" : [
+         "examples",
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Crypt::CBC" : "2.29",
+            "Data::UUID" : "0.149",
+            "Digest::MD5" : "2.36",
+            "Digest::SHA" : "5.45",
+            "Filter::Util::Call" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.15"
+}
