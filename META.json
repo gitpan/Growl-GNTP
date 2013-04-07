@@ -4,13 +4,23 @@
       "Yasuhiro Matsumoto <mattn.jp@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.0.49",
+   "generated_by" : "Minilla/v0.0.51",
    "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "Growl-GNTP",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -19,7 +29,19 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : 0
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38",
+            "Module::Build::Tiny" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Wordlist::hanekomu" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spelling" : "0"
          }
       },
       "runtime" : {
@@ -28,11 +50,16 @@
             "Data::UUID" : "0.149",
             "Digest::MD5" : "2.36",
             "Digest::SHA" : "5.45",
-            "Filter::Util::Call" : 0
+            "Filter::Util::Call" : "0"
          }
       }
    },
-   "provides" : {},
+   "provides" : {
+      "Growl::GNTP" : {
+         "file" : "lib/Growl/GNTP.pm",
+         "version" : "0.19"
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
@@ -44,5 +71,14 @@
          "web" : "https://github.com/mattn/p5-Growl-GNTP"
       }
    },
-   "version" : "0.18"
+   "version" : "0.19",
+   "x_contributors" : [
+      "unknown <Administrator@.(none)>",
+      "Yuki Ibe <yibe@yibe.org>",
+      "mattn <mattn@poo.(none)>",
+      "Marc Thielemann <marc.thielemann@biama.de>",
+      "sugyan <sugi1982@gmail.com>",
+      "Henrik Brix Andersen <henrik@brixandersen.dk>",
+      "John Morrissey <jwm@horde.net>"
+   ]
 }

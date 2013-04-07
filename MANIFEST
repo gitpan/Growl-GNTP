@@ -14,3 +14,8 @@ t/00_compile.t
 t/01_simple.t
 xt/02_perlcritic.t
 xt/perlcriticrc
+Build.PL
+LICENSE
+META.json
+META.yml
+MANIFEST
