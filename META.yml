@@ -27,18 +27,19 @@ no_index:
 provides:
   Growl::GNTP:
     file: lib/Growl/GNTP.pm
-    version: 0.19
+    version: 0.20
 requires:
   Crypt::CBC: 2.29
   Data::UUID: 0.149
   Digest::MD5: 2.36
   Digest::SHA: 5.45
   Filter::Util::Call: 0
+  IO::Socket::PortState: 0
 resources:
   bugtracker: https://github.com/mattn/p5-Growl-GNTP/issues
   homepage: https://github.com/mattn/p5-Growl-GNTP
   repository: git://github.com/mattn/p5-Growl-GNTP
-version: 0.19
+version: 0.20
 x_contributors:
   - 'unknown <Administrator@.(none)>'
   - 'Yuki Ibe <yibe@yibe.org>'

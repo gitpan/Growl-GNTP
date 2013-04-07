@@ -50,14 +50,15 @@
             "Data::UUID" : "0.149",
             "Digest::MD5" : "2.36",
             "Digest::SHA" : "5.45",
-            "Filter::Util::Call" : "0"
+            "Filter::Util::Call" : "0",
+            "IO::Socket::PortState" : "0"
          }
       }
    },
    "provides" : {
       "Growl::GNTP" : {
          "file" : "lib/Growl/GNTP.pm",
-         "version" : "0.19"
+         "version" : "0.20"
       }
    },
    "release_status" : "stable",
@@ -71,7 +72,7 @@
          "web" : "https://github.com/mattn/p5-Growl-GNTP"
       }
    },
-   "version" : "0.19",
+   "version" : "0.20",
    "x_contributors" : [
       "unknown <Administrator@.(none)>",
       "Yuki Ibe <yibe@yibe.org>",
